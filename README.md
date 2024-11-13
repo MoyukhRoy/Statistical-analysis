@@ -1,93 +1,38 @@
-# Tableau Project
-
-## Overview
-
-This repository contains Tableau workbooks and related resources. The project demonstrates various data visualization techniques and best practices using Tableau. It includes dashboards, reports, and data sources that showcase insights and analytics for different datasets.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Data Sources](#data-sources)
-- [Workbooks and Dashboards](#workbooks-and-dashboards)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+# Statistical Analysis Overview
 
 ## Introduction
+Statistical analysis involves collecting and scrutinizing every data sample in a set of items from which samples can be drawn. It is a critical process for understanding data, discovering trends, making decisions, and validating hypotheses.
 
-Tableau is a powerful data visualization tool that helps in transforming raw data into an understandable format. This project aims to leverage Tableau's capabilities to create insightful and interactive dashboards that can be used for data analysis and decision-making.
+## Types of Statistical Analysis
+1. **Descriptive Analysis**
+   - Summarizes data using measures such as mean, median, mode, standard deviation, and variance.
+   - Example: Calculating the average sales revenue of a company over a year.
 
-## Getting Started
+2. **Inferential Analysis**
+   - Draws conclusions and makes predictions based on data from a sample.
+   - Example: Using sample data to infer the spending habits of a population.
 
-To get started with this project, you'll need to have Tableau Desktop installed on your machine. You can download it from the [official Tableau website](https://www.tableau.com/products/desktop).
+## Key Concepts
+- **Population and Sample**: The entire group you want to study versus a subset of that group.
+- **Hypothesis Testing**: A method to test if a hypothesis about data is true or false.
+- **P-Value**: Used to determine the statistical significance of results.
+- **Confidence Interval**: A range of values derived from sample data that is likely to contain the true population parameter.
 
-### Prerequisites
+## Statistical Methods
+1. **Mean (Average)**: Sum of all values divided by the number of values.
+2. **Median**: The middle value when data is sorted.
+3. **Mode**: The most frequently occurring value in a dataset.
+4. **Standard Deviation**: Measures the amount of variation or dispersion in a set of values.
+5. **Variance**: The square of the standard deviation.
 
-- Tableau Desktop
-- Basic understanding of data visualization concepts
 
-### Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    ```
-2. Open Tableau Desktop and load the workbooks from the cloned repository.
+## Tools for Statistical Analysis
+- **Software**:  Python (with libraries such as pandas, NumPy, and SciPy) and Excel.
+- **Visualization**: Charts, histograms, box plots, and scatter plots to help convey data insights.
 
-## Data Sources
+## Conclusion
+Statistical analysis is an essential aspect of modern data analysis. By understanding and applying different statistical methods, businesses and researchers can derive meaningful insights, make informed decisions, and contribute to data-driven growth and innovation.
 
-The data used in this project comes from various sources, including:
-
-- **Sample Superstore**: Provided by Tableau
-- **Public Datasets**: Available from government and open data portals
-- **Custom Datasets**: Created for specific analyses
-
-Ensure that the data sources are properly connected in Tableau. You might need to update the data source paths if they have been moved or if you are using different datasets.
-
-## Workbooks and Dashboards
-
-This repository contains several Tableau workbooks (`.twb` and `.twbx` files) showcasing different dashboards:
-
-- **Sales Dashboard**: Analysis of sales data with filters for region, category, and time period.
-- **Customer Segmentation**: Visual representation of customer segments based on purchasing behavior.
-- **Financial Performance**: Financial metrics and KPIs displayed in an interactive format.
-
-Each workbook includes multiple dashboards and worksheets that provide detailed insights into the data.
-
-## How to Use
-
-1. Open a workbook in Tableau Desktop.
-2. Explore the dashboards and interact with the visualizations using filters and parameters.
-3. Customize the dashboards as needed for your analysis.
-4. Share your insights by exporting the dashboards or publishing them to Tableau Server/Tableau Online.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or new features, please create a pull request or open an issue.
-
-### Steps to Contribute
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Add your message here"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-branch
-    ```
-5. Create a pull request on GitHub.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to the project maintainer at [email@example.com](mailto:moyukhroynnitsbz@gmail.com).
-
+---
+End of document.
